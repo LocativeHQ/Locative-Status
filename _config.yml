@@ -1,0 +1,24 @@
+# Exclude files
+exclude: [Makefile]
+excerpt_separator: ""
+
+# Permalinks
+permalink: '/:categories/:title/'
+
+# Webpage
+timezone: 'Australia/Sydney'
+title: 'Locative Status'
+baseurl: ''
+locativeUrl: 'https://my.locative.io'
+assets: 'assets/'
+
+# Services
+services:
+   WEBSITE:
+      en: Website
+   API:
+      en: API
+   OAUTH:
+      en: oAuth
+   DEVELOPERPORTAL:
+      en: Developer Portal
