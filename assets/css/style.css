@@ -58,6 +58,9 @@ body {
   z-index: 1000;
   height: 45px;
   background-color: #32abdf;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  border-bottom-width: 1px;
  }
  .nav-link {
    color: #fff !important;
@@ -67,4 +70,13 @@ body {
 	background-color: #fff !important;
 	border-color: #ccc !important;
 	z-index: 10;
+}
+.app-icon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: url(/assets/img/logo.png) no-repeat;
+    background-size: 100%;
+    margin-left: -55px;
+    margin-top: -2px;
 }
